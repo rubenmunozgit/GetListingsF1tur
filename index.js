@@ -1,5 +1,3 @@
-const axios = require('axios');
-const fs = require('fs');
 const { getBusiness, getBusinessDetails } = require('./apiClients/fetchData');
 const {timeout} = require('./util/delay');
 const {extractBusinessInfo} = require('./mutate/extract');
